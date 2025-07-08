@@ -23,7 +23,7 @@ export const URL=()=>{
     return(
        <div className="main">
         <h1 className="heading">
-            URL SHORTNER
+            URL SHORTNER :-
         </h1>
         <form className="formm" onSubmit={handlesubmit}>
             <input  type="url" value={orignalurl} onChange={(e)=>setOrignalurl(e.target.value)} className="inputt"/>
