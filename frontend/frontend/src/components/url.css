@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(160, 151, 254);
+    
+}
+.heading{
+    padding: 30px;
+}
+
+.formm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inputt{
+    border: 1px  solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.submitbutton{
+     border: 1px solid black;
+    border-radius: 5px;
+    width: 90px;
+}
+.shorturl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
